@@ -69,12 +69,13 @@ main{
     color: var(--gray-800);
     font-weight: 600;
 }
+
 .login input {
-    padding: 1rem 0.75rem;
+    padding: 1rem  0.75rem;
     border: 1px solid var(--gray-200);
-    border-radius: 0.25rem;
-    color: var(--gray-800);
+    border-radius: 0.25px;
 }
+
 
 .login input::placeholder {
     color: var(--gray-400);
@@ -94,6 +95,12 @@ main{
 
 .login a:hover {
     text-decoration: underline;
+}
+
+.login button {
+    margin-top: 2.2rem;
+    padding-block: 1.6rem;
+    width: 100%;
 }
 
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
